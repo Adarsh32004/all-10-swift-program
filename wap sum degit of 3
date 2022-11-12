@@ -1,0 +1,7 @@
+let string = "845"
+let sum = string.compactMap{$0.wholeNumberValue}.reduce(0, +)
+print(sum) // 17
+
+let integer = 845
+let sumInt = String(integer).compactMap{$0.wholeNumberValue}.reduce(0, +)
+print(sumInt) // 17

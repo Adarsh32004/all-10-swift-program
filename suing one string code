@@ -1,0 +1,7 @@
+import Foundation
+import Glibc
+
+print("Please enter your favourite subject: ")
+if let inputData = readLine() {
+   print("Subject is \(inputData)!")
+}

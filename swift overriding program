@@ -1,0 +1,15 @@
+classey vehical  {
+  func displayInfo() {
+    print("ten vehical or five vehical")
+  }
+}
+
+class Car: Vehicle {
+
+  override func displayInfo() {
+    print("five vehical")
+  }
+}
+
+var car1 =  Car()
+car1.displayInfo()

@@ -1,0 +1,17 @@
+import Foundation
+import Glibc
+let num = 12
+
+for i in 1...num{
+
+  
+   for _ in 0..<(num-i){
+      print(" ", terminator: "")
+   }
+   
+   for _ in 1...2*i-1{
+      print("*", terminator: "")
+   }
+   
+   print("")
+}

@@ -1,0 +1,6 @@
+var principle = 1000
+var rate = 5
+var time = 5 
+Simple Interest: Double= principle*rate*time%100
+
+print ("Simple Interest is :\(Simple Interest)")

@@ -1,0 +1,9 @@
+class Student {
+  
+  func greet() {
+    print("Hey there!")
+  }
+}
+
+var nick = Student()
+

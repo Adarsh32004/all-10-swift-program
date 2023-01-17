@@ -1,0 +1,5 @@
+var n1,n2: Int 
+print ("Please Enter two Integer Number")
+n1 = Int (readLine()!)!
+n2 = Int(readLine()!)!
+print ("Th Sum of\(n1) and \(n2) is = \(n1+n2)")

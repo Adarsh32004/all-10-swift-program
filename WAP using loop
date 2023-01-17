@@ -1,0 +1,5 @@
+let animalname = ["goat", "camel", "lion", "tiger"]
+
+for animal in animals {
+      print(animalname)
+}
